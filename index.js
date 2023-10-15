@@ -7,4 +7,9 @@ function saturdayFun(activity="roller-skate") {
 
 }
 
+// defines mondayWork function
+function mondayWork() {
+    
+}
+
 saturdayFun();
