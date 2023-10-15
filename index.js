@@ -13,5 +13,10 @@ function mondayWork(venue="go to the office") {
 
 }
 
+// defines wrapAdjective function
+function wrapAdjective() {
+
+}
+
 // saturdayFun();
 // mondayWork("I will work from home");
