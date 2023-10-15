@@ -8,8 +8,10 @@ function saturdayFun(activity="roller-skate") {
 }
 
 // defines mondayWork function
-function mondayWork() {
-    
+function mondayWork(venue="go to the office") {
+    return (`This Monday, I will ${venue}.`);
+
 }
 
-saturdayFun();
+// saturdayFun();
+// mondayWork("I will work from home");
