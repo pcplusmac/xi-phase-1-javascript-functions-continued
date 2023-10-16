@@ -23,7 +23,7 @@ function wrapAdjective(input) {
     if (init === "|") {
         function doActionB(input) {
             
-            input = "the adjective begins with '||' is highlighted now. ";
+            input = "You are ||a dedicated programmer||!";
             return input;
     
         }
