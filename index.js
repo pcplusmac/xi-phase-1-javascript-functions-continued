@@ -20,8 +20,18 @@ function wrapAdjective(input) {
     
     
     let init = input[0];
+    if (init === "|") {
+        function doActionB(input) {
+            
+            input = "the adjective begins with '||' is highlighted now. ";
+            return input;
     
-    if (init === "*") {
+        }
+        return doActionB;
+    } 
+   
+     
+    else if (init === "*") {
         function doActionA(input) {
             
             input = "You are *a hard worker*!";
@@ -30,13 +40,8 @@ function wrapAdjective(input) {
         }
         return doActionA;
     }  
-    else if (init === "||") {
-        function doActionB(input) {
-            console.log("the adjective begins with '||' is highlighted now. ")
     
-        }
-        return doActionB;
-    }
+   
 
 
 }
